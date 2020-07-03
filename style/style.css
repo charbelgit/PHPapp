@@ -1,0 +1,187 @@
+h1{color:#E86100;font-size=8px;align:left;}
+h4{display:inline;}
+h1{font-family:Verdana,Georgia;}
+div{font-family:verdana,georgia;}
+body{padding:0px; border:0px;margin:0px; background-color: #E3E2DF}
+#main-content.groove{border-style: groove;border-width: medium;}
+
+.topnav {
+  background-color: #E86100;
+  overflow: hidden;
+  z-index: 100;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff8247;
+  color: white;
+}
+
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+.topnav-right, #login {
+  float: right;
+}
+
+.topnav .login-container button:hover {
+  background: #ccc;
+}
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width:30%;
+}
+
+.middle {
+  width: 40%;
+}
+
+#footer {
+
+ float: left;
+
+ width: 100%;
+
+ border-top: #c00 solid 3px;
+
+ }
+ .sign_up{
+  float: right;
+  margin-right: 15px;
+ }
+ #leftImage {
+   top: 14px; /* your required value */
+   left: 0;
+   width: 150px;
+   height: 100%;
+   position: fixed;
+ }
+#img-signup {/*on the index file */} }
+ div {
+   column-gap: 40px;
+ }
+ #aside{float:left;}
+/*#main,h2,h4,ol,h3{margin-left: 180px; margin-right: 200px}*/
+/*.container1{margin-left: 800px;}*/
+
+.main-header{
+  margin-bottom: 7px;
+}
+
+.main-header, .topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+
+}
+
+
+.btn-groups button {
+  background-color: #E86100; /* Green background */
+  border: 1px solid #E86100 ; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: inline-block; /* Make the buttons appear below each other */
+  justify-content: center;
+}
+
+.btn-groups button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-groups button:hover {
+  background-color: #ff8247;
+}
+.btn-groups button{justify-content: center;}
+a{text-decoration: none;
+  color: white;
+}
+
+
+/*login*/
+h1,h2,h3,h4,h5,h6 {text-align:center;font-family: 'Lato', sans-serif;}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+video {justify-content: center;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.container2{text-align: center;}
+
+
+.spread-video {
+  display: block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+
+  overflow: hidden;
+}
+
+
+.main-content {
+  margin: 0 10px;
+}
