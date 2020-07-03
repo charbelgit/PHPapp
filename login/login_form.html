@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="login_form.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/image/png" href="../images/icon logo.png"/>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </script>
+
+    <title>Login</title>
+  </head>
+  <body>
+
+    <form action="sign_in.php" class="center center_form" method="post">
+      <div class="login_container">
+  <div class="imgcontainer center">
+    <img src="../images/logo.png" alt="" width="100%" height="24%" >
+  </div>
+
+  <div class="container center">
+    <label for="login_username"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" id="email_login" name="login_username" required>
+<br>
+    <label for="login_password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" id="password_login" name="login_password"  required>
+    <br>
+    <input type="checkbox" id="showPassword" onclick="myFunction()" >Show Password <br>
+
+    <button type="submit" id="loginButton" class="btn login_" style="background:#e86100; color:white;">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" id="rememberMe" name="remember" onclick="lsRememberMe()"> Remember me
+    </label>
+  </div>
+
+    </form>
+<div class="container center">
+  <form style="padding-bottom: 35px;" action="../index.php">
+    <button type="button submit" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="../account/change_password.php">Forgot password?</a></span>
+  </form>
+</div>
+</div>
+<div class="signup" align="center">
+  <h2 style="display:inline-block;">Don't have an account? <br> <a href="../index.php">Sign up</a></h2>
+
+</div>
+<script type="text/javascript">
+function myFunction() {
+var x = document.getElementById("password_login");
+if (x.type === "password") {
+  x.type = "text";
+} else {
+  x.type = "password";
+}
+}
+</script>
+
+<script type="text/javascript">
+var rmCheck = document.getElementById("rememberMe"),
+emailInput = document.getElementById("email_login");
+var passwordInput= document.getElementById("password_login");
+
+if (localStorage.checkbox && localStorage.checkbox != "") {
+rmCheck.setAttribute("checked", "checked");
+emailInput.value = localStorage.username;
+passwordInput.value = localStorage.password;
+} else {
+rmCheck.removeAttribute("checked");
+emailInput.value = "";
+passwordInput.value="";
+}
+
+function lsRememberMe() {
+if (rmCheck.checked && emailInput.value != "") {
+  localStorage.username = emailInput.value;
+  localStorage.password = passwordInput.value;
+  localStorage.checkbox = rmCheck.value;
+} else {
+  localStorage.username = "";
+  localStorage.password="";
+  localStorage.checkbox = "";
+}
+}
+</script>
+  </body>
+</html>
