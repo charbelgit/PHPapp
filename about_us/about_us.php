@@ -2,11 +2,7 @@
 <?php
 session_start();
 ?>
-<!--
-	Intensify by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -108,11 +104,11 @@ session_start();
 						<p>Your challenges are our challenges. </p>
 					</header>
 					<div class="image fit">
-						<img src="aboutus.png" alt="Heykel" />
+						<img src="aboutus.png"  />
 					</div>
 					<p>Health and fitness pursuit is very challenging to stick to in our transformative and accelerating world.</p>
 					<p> Many times your goals can seem impossible to reach and you may lose motivation to pursue them.</p>
-					<p>With Heykel, create your own profile with your goals, track it and find the right support with the right adviser and build together a  fully-personalized program that fits best with your time and environment.</p>
+					<p></p>
 				</div>
 			</section>
 
@@ -121,8 +117,8 @@ session_start();
 				<div class="inner">
 					<h2>Get In Touch</h2>
 					<ul class="actions">
-						<li><span class="icon fa-phone"></span> <a href="#">(+961) 03-272883</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">info@heykelit.com</a></li>
+						<li><span class="icon fa-phone"></span> <a href="#"></a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">info@website.com</a></li>
 						<li><span class="icon fa-map-marker"></span> WorldWideWeb</li>
 					</ul>
 				</div>
