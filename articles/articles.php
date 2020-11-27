@@ -119,7 +119,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="color:black;" href="../index.php"><img  src="../images/logo.png" alt="HEYKEL" width="125" height="25"/></a>
+            <a class="navbar-brand" style="color:black;" href="../index.php"><img  src="../images/logo.png" width="125" height="25"/></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
